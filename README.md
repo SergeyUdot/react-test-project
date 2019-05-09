@@ -29,8 +29,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `Login Info`
 
-User test params
-username: Admin
+User test params<br>
+username: Admin<br>
 password: 12345
 
 ## Learn More
