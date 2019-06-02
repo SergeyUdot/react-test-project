@@ -5,6 +5,7 @@ import './index.css'
 import App from './App'
 import News from './components/News'
 import Article from './components/Article'
+import TestForm from './components/TestForm'
 import Profile from './components/Profile'
 import Login from './components/Login'
 import Notfound from './components/Notfound'
@@ -35,6 +36,11 @@ const routing = (
               </NavLink>
             </li>
             <li>
+              <NavLink activeClassName="active" to="/test-form">
+                Test Form
+              </NavLink>
+            </li>
+            <li>
               <NavLink activeClassName="active" to="/profile">
                 Profile
               </NavLink>
@@ -45,6 +51,7 @@ const routing = (
           <Route exact path="/" component={App} />
           <Route exact path="/news" component={News} />
           <Route path="/news/:article" component={Article} />
+          <Route path="/test-form" component={TestForm} />
           <Route path="/profile" component={Profile} />
           <Route path="/login" component={Login} />
           <Route component={Notfound} />

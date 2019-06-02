@@ -119,3 +119,16 @@ nav ul li a.active{
 .errorMessage {
   color: red;
 }
+
+.loginForm form input[type="checkbox"] {
+  display: inline-block;
+}
+
+.loginForm form ul li {
+  margin-bottom: 2px;
+}
+
+.loginForm form ul li label {
+  display: inline-block;
+  cursor: pointer;
+}
